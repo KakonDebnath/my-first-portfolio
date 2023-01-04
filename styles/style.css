@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* This is primary color */
+.text-primary {
+    color: #FD6E0A;
+}
+
+/* All Button Stye */
+.btn-primary {
+    height: 64px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+    padding: 18px 35px;
+}
+
+.btn-contact {
+    height: 64px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    padding: 18px 35px;
+}
+
+/* Common Main Section */
+.main-section {
+    max-width: 1140px;
+    margin: 0 200px;
+}
+
+/* Header and Navbar Style */
+header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/* Header's Banner Style */
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.banner-subtitle {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-disc {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.banner-img {
+    width: 584px;
+    height: 676px;
+}
+
+/* About Me Section */
+
+.about {
+    background-color: #FFF8F3;
+    margin: 130px 0;
+    padding: 130px 155px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-disc {
+    margin: 30px 0;
+    color: #757575;
+    font-size: 18px;
+}
+
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info-title{
+    color: #757575;
+    font-size: 20px;
+}
+.about-info-desc{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.what_i_do{
+    text-align: center;
+}
+.what_i_do_disc{
+    max-width: 910px;
+    margin: 30px auto 50px;
+}
