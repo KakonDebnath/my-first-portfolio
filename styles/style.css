@@ -158,8 +158,61 @@ nav ul li {
 }
 .skill_title{
     margin: 25px 0;
+    font-size: 20px;
+    font-weight: 700;
 }
 .skill_disc{
     line-height: 28px;
     color: #757575;
+}
+
+
+/* resume section style */
+
+.resume{}
+.resume_title{
+    padding: 115px;
+    text-align: center;
+    text-transform: CAPITALIZE;
+    font-size: 35px;
+    font-weight: 700;
+}
+.resume_container{
+    display: flex;
+    gap: 30px;
+}
+.education{}
+.edu_main_title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.education_info{
+    border-bottom: 1px solid #D1D1D1;
+}
+.educatin_title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.education_subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.education_disc{
+    color: #757575;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.experience{}
+.resume_btn{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
 }
