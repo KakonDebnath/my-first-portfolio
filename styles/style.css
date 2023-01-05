@@ -60,7 +60,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 200px 50px;
+    padding: 50px 200px;
 }
 
 nav ul {
@@ -260,8 +260,9 @@ nav ul li {
     color: #474747;
 }
 
-.social_icon img {
-    margin-right: 30px;
+.social_icon a {
+    margin-right: 20px;
+    color: #FD6E0A;
 }
 
 .form {
