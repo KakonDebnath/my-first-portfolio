@@ -100,10 +100,12 @@ nav ul li {
     margin-bottom: 30px;
 }
 
-.banner_hedding {
+.banner_heading {
     flex-basis: 50%;
 }
-
+.banner_btn{
+    
+}
 .banner-img {
     flex-basis: 45%;
 }
